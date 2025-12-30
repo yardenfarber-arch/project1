@@ -247,6 +247,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
+    margin:15px; 
 }
 
 .services__item:hover {
@@ -260,3 +261,10 @@ h2 {
     display: flex;
     justify-content: center;
     color: blanchedalmond;}
+button.nbtn
+{
+    margin: 10px;
+}
+a {
+    color: white;
+}
