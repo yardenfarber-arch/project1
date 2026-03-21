@@ -33,6 +33,7 @@ if(message.length<4)
     alert("Too short, please write more") 
     return
 }
+alert("Okay, saved successfully")    
 console.log(firstName)
 console.log(lastName)
 console.log(email)
