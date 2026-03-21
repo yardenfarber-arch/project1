@@ -1,4 +1,4 @@
-/* HEADER */
+
 header {
     background: #333;
     color: #fff;
@@ -14,7 +14,7 @@ header h1 {
     margin-bottom: 4px;
 }
 
-/* סידור פנימי */
+
 .container1 {
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ header h1 {
     padding: 0 20px;
 }
 
-/* תפריט */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -41,7 +41,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* FOOTER */
+
 footer {
     background: #333;
     color: #fff;
@@ -57,7 +57,7 @@ footer {
     padding: 0;
     box-sizing: border-box;
 }
-user agent stylesheet
+
 footer {
     display: block;
     unicode-bidi: isolate;
@@ -75,7 +75,7 @@ footer {
     width: 32px;
 }
 
-/* סידור */
+
 .container1 {
     display: flex;
     justify-content: space-between;
@@ -83,13 +83,13 @@ footer {
     padding: 0 20px;
 }
 
-/* תחתית */
+
 .footer-bottom {
     color: #fff;
     text-decoration: none;
 }
 
-/* תמונות */
+
 footer img {
     max-width: 100%;
     height: auto;
@@ -110,7 +110,7 @@ footer img {
     width: 300px;
 }
 
-/* שדות */
+
 #contact_requests input,
 #contact_requests textarea {
     width: 100%;
@@ -121,7 +121,7 @@ footer img {
     transition: 0.2s;
 }
 
-/* פוקוס */
+
 #contact_requests input:focus,
 #contact_requests textarea:focus {
     border-color:#333 ;
@@ -129,12 +129,12 @@ footer img {
     outline: none;
 }
 
-/* טקסט ארוך */
+
 #contact_requests textarea {
     height: 100px;
 }
 
-/* כפתור */
+
 #contact_requests button {
     width: 100%;
     padding: 10px;
@@ -147,12 +147,12 @@ footer img {
     transition: 0.3s;
 }
 
-/* אפקט מעבר */
+
 #contact_requests button:hover {
     background: #3b3a37;
 }
 
-/* קישור */
+
 .backLink {
     display: inline-block;
     margin-top: 15px;
