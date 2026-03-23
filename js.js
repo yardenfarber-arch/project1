@@ -33,11 +33,36 @@ if(message.length<4)
     alert("Too short, please write more") 
     return
 }
-alert("Okay, saved successfully")    
+alert("ok")
 console.log(firstName)
 console.log(lastName)
 console.log(email)
 console.log(age)
 console.log(message)
-
+fetch("http://localhost:3000/post", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ 
+            name: firstName, 
+            lastName: lastName, 
+            email: email, 
+            age: age, 
+            message: message 
+        })
+    })
+    .then(res => res.text())
+    .then(data => {
+        console.log(firstName)
+        console.log(lastName)
+        console.log(email)
+        console.log(age)
+        console.log(message)
+        alert("הנתונים נשלחו בהצלחה! תשובת השרת: " + data);
+    })
+    .catch(err => {
+        console.error("שגיאה בשליחה:", err);
+        alert("קרתה שגיאה בשליחת הנתונים לשרת.");
+    });
 })
